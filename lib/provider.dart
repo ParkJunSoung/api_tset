@@ -4,9 +4,7 @@ import 'package:api_test/pix_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-
 class PixInfo extends ChangeNotifier {
-  final List<Pix_model?> filteredItems = [];
   final controller = TextEditingController();
   Pix_model? _result;
 
